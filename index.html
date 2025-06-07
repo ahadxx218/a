@@ -1,0 +1,19 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تحليل المكان بالكاميرا</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📸 تحليل المكان</h1>
+  <video id="camera" autoplay playsinline></video>
+  <button onclick="analyze()">ابدأ التحليل</button>
+  <p id="result">النتيجة راح تظهر هنا...</p>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+  <script src="script.js"></script>
+</body>
+</html>
